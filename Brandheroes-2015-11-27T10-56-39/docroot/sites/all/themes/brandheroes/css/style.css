@@ -15,6 +15,10 @@ body {
 	width: 100%;
 	height: auto;
 }
+    padding-top: 196px !important
+}
+body.admin-menu.navbar-is-fixed-top {
+    padding-top: 196px !important
 hr {
 	background-color: #000;
 	height: 1px;
@@ -119,9 +123,6 @@ p a:hover, p a:active {
 	font-style: normal;
 	font-weight: 100;
 }
-.main-container {
-	margin: 200px 0 0 0;
-}
 .main-container .row {
 	margin: 0;
 }
@@ -207,21 +208,14 @@ section.contextual-links-region, section.col-sm-12 {
 	color: #ccc;
 	background-color: #fff;
 }
-.navbar-default .navbar-nav>li>a, 
-.navbar-default .navbar-nav>.active>a {
 	color: #ccc;
 	background-color: #fff;
 	padding: 0;
-	margin: 0 82px 8px 0;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-.navbar-default .navbar-nav>li>a:hover, 
-.navbar-default .navbar-nav>.active>a:hover, 
-.navbar-default .navbar-nav>.active>a:active, 
-.navbar-default .navbar-nav>.active>a {
 	color: #000;
 	background-color: #ffff00;
 }
@@ -271,7 +265,6 @@ ul.menu.nav.navbar-nav.secondary {
 /* AddThis */
 
 div.at4-follow-outer {
-    position: fixed;
     top: 45px;
     width: 160px;
     z-index: 9999;
@@ -391,6 +384,12 @@ div.container.basis-kader-txt {
 	top: 4%;
 	left: 4%;
 }
+	position: relative;
+	width: 41.66%;
+	max-width: 1280px;
+	height: auto;
+	font-size: 3.4375vw;
+	line-height: 3.75vw;
 .jumbotron .kader .kader-txt .kader-titel h1, .basis-kader-titel h1 {
 	display: block;
 	margin: 0 0 0 0;
@@ -646,7 +645,6 @@ h1.portfolio-block {
 	font-weight: 100;
 	margin-bottom: 15px;
 }
-.view-portfolio-block .col-sm-4, .view-portfolio-home .col-sm-4, .view-portfolio-related .col-sm-4, .view-portfolio-related .col-md-2 {
 	padding: 0;
 }
 .view-portfolio-block .portfolio-block-banner h2 {
@@ -704,9 +702,7 @@ h1.portfolio-block {
 }
 
 img.portfolio-circle {
-	display: none;
 }
-
 .portfolio-block-banner:after {
 	content: "\f101";
 	font-family: FontAwesome;
@@ -748,8 +744,6 @@ img.portfolio-circle {
 	color: #ccc;
 	margin-bottom: 15px;
 }
-.view-portfolio-home .portfolio-block-banner div, 
-.view-portfolio-related .col-md-2 .portfolio-block-banner div {
 }
 .view-portfolio-home h2 {
 	font-weight: 400;
@@ -885,7 +879,6 @@ section#block-views-werknemers-block {
 	padding: 0 70px 15px 70px;
 }
 .view-werknemers .views-row-last .pasfoto {
-	padding-bottom: 50px;
 }
 .pasfoto img {
 	width: 100% !important;
@@ -961,11 +954,6 @@ section#block-views-werknemers-block {
 	margin-top: -30px;
 	margin-left: 136px;
 }
-@media (max-width: 480px) {
-	.view-over-brand-heroes-page ul, .view-contact-page ul, .view-landing-page .col-xs-12.col-md-7 ul, .view-landing-page ul {
-		margin-top: 30px;
-		margin-left: 0;
-	}
 }
 .view-fontpage ul, .view-grafischontwerp-page ul, .view-brand-design ul, .view-digitaal-page ul, .view-media ul, .view-landing-page .col-xs-12.col-md-7 ul {
 	position: relative;
@@ -1010,7 +998,6 @@ h1.portfolio-header, h1.blog-header {
 	font-weight: 100;
 	font-size: 88px;
 	line-height: 100%;
-	letter-spacing: -0.05em;
 	margin-top: 95px !important;
 	margin-bottom: 25px;
 	color: #fff;
@@ -1288,12 +1275,7 @@ div.blog-grid-txt {
 /* Over Brand Heroes */
 
 div.view-over-brand-heroes-page .kader-titel.light-version, div.view-over-brand-heroes-page .kader-intro, div.view-contact-page .kader-titel.light-version, div.view-contact-page .kader-intro {
-	margin: 0 0 0 20px;
 }
-@media (max-width: 640px) {
-	div.view-over-brand-heroes-page .kader-titel.light-version, div.view-over-brand-heroes-page .kader-intro, div.view-contact-page .kader-titel.light-version, div.view-contact-page .kader-intro {
-		margin: 0 0 0 0;
-	}
 }
 div.view-over-brand-heroes-page .kader-intro p, div.view-contact-page .kader-intro p {
 	position: relative !important;
@@ -1310,7 +1292,6 @@ div.view-over-brand-heroes-page .kader-intro p, div.view-contact-page .kader-int
 }
 form#webform-client-form-34.webform-client-form.webform-client-form-34 {
 	width: 58.33333333333331%;
-	padding-left: 50px;
 	padding-top: 30px;
 }
 .form-item {
@@ -1370,11 +1351,9 @@ section#block-block-4.block.block-block.clearfix {
 	height: auto;
 	padding: 15px;
 	mix-blend-mode: multiply;
-	opacity: 0.5;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease; 
 }
 .klant-logo img:hover { 
 	opacity: 1;
@@ -1396,7 +1375,6 @@ section#block-block-4.block.block-block.clearfix {
 	color: #fff;
 	background-color: rgba(0,0,0,0);
 }
-
 
 
 @media all and (min-width: 1281px){
@@ -1450,8 +1428,6 @@ section#block-block-4.block.block-block.clearfix {
 		font-size: 16px;
 		margin-top: -15px;
 	}
-	.view-portfolio-home .portfolio-block-banner div, 
-	.view-portfolio-related .col-md-2 .portfolio-block-banner div {
 	}
 	h2 {
 		margin-top: 30px;
@@ -1551,7 +1527,6 @@ section#block-block-4.block.block-block.clearfix {
 	}
 	.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.active>a {
 		font-size: 21px;
-		margin: 0 63px 8px 0;
 	}
 	.at4-follow-outer .at4-follow .at4-follow-inner {
     	padding-right: 45px;
@@ -1572,8 +1547,6 @@ section#block-block-4.block.block-block.clearfix {
 	div.container.basis-kader-txt {
 		left: 2.5%;
 	}
-	.view-portfolio-home .portfolio-block-banner div, 
-	.view-portfolio-related .col-md-2 .portfolio-block-banner div {
 	}
 	.view-portfolio-home .portfolio-block-banner::after, .view-portfolio-related .col-md-2 .portfolio-block-banner::after {
 		bottom: 20px;
@@ -1583,8 +1556,6 @@ section#block-block-4.block.block-block.clearfix {
 		left: 35px;
 		font-size: 6.875vw;
 	}
-	.view-portfolio-related .col-md-2 h2 {
-		font-size: 20px;
 	}
 	form#webform-client-form-34.webform-client-form.webform-client-form-34 {
 		padding-left: 20px;
@@ -1618,30 +1589,7 @@ section#block-block-4.block.block-block.clearfix {
 }*/
 
 @media all and (max-width: 800px) {
-	div.blog-grid-txt {
 	}
-	#block-menu-menu-sub ul.menu.nav>li {
-		padding: 18px 15px 0;
-		font-size: 15px;
-	}
-	.view-portfolio-home .view-content div:nth-child(even){
-		padding-left: 0;
-	}
-	.view-portfolio-home .view-content div:nth-child(odd){
-		padding-right: 0;
-	}
-	.view-portfolio-home p, .view-portfolio-related p:first-child, .block-block p:first-child {
-		margin: 0 0 25px;
-	}
-	.view-portfolio-home div .col-sm-12.col-md-6:last-child, .view-portfolio-related div .col-sm-12.col-md-6:last-child,  .block-block div .col-sm-12.col-md-6:last-child {
-		padding-left: 0;
-	}
-	.view-portfolio-home div.views-limit-grouping-group.col-md-6 {
-		clear: both;
-	}
-	.view-portfolio-detailpagina-block .blockquote {
-		margin-bottom: 30px;
-		margin-top: 0;
 	}
 }	
 
@@ -1668,8 +1616,6 @@ section#block-block-4.block.block-block.clearfix {
 		font-size: 13px;
 		line-height: 18px;
 	}
-	.navbar-default .navbar-nav>li>a, 
-	.navbar-default .navbar-nav>.active>a {
 		font-size: 25px;
     	margin: 0;
 	}
@@ -1730,12 +1676,11 @@ section#block-block-4.block.block-block.clearfix {
 	}
 	.portfolio-block-banner div {
 	}
-	.view-portfolio-home .portfolio-block-banner div, 
-	.view-portfolio-related .col-md-2 .portfolio-block-banner div {
 	}
 	.view-portfolio-home .portfolio-block-banner::after, .view-portfolio-related .col-md-2 .portfolio-block-banner::after {
 		bottom: 25px;
 		right: 10px;
+	}
 	}
 	h2 {
 		margin-top: 3.90625vw;
@@ -1872,9 +1817,6 @@ section#block-block-4.block.block-block.clearfix {
 	.navbar .container {
 		padding: 0;
 	}
-	header#navbar.navbar.navbar-fixed-top.navbar-default, 
-	div.navbar-header, 
-	.navbar div.container {
 		height: 76px;
 	}
 	.main-container {
@@ -1929,10 +1871,7 @@ section#block-block-4.block.block-block.clearfix {
 	#block-menu-menu-top-navigation {
 		clear: left;
 		position: relative;
-		top: auto;
-		right: auto;
 	}
-
 	#block-menu-menu-top-navigation ul.menu.nav>li {
 		float: none;
 		border: none;
@@ -1957,7 +1896,6 @@ section#block-block-4.block.block-block.clearfix {
 		border: none;
 	}
 
-	#block-menu-menu-top-navigation ul.menu.nav {
 	}
 	.jumbotron .kader .kader-txt .kader-intro p {
 		display: none;
@@ -2019,16 +1957,7 @@ section#block-block-4.block.block-block.clearfix {
 		margin-top: 30px;
 	}
 	div.view-over-brand-heroes-page .jumbotron .kader .kader-txt .kader-intro p {
-		left: 0;
 	}
-	@media (max-width: 640px) {
-		div.view-over-brand-heroes-page .jumbotron .kader .kader-txt {
-			margin: 10px 0 0 0;
-		}
-		div.view-over-brand-heroes-page .jumbotron .kader .kader-txt .kader-intro p {
-			font-size: 16px;
-			margin: 0;
-		}
 	}
 	div.view-over-brand-heroes-page .kader-intro p, div.view-contact-page .kader-intro p, div.view-landing-page .kader-intro p {
 		display: block !important;
@@ -2063,7 +1992,6 @@ section#block-block-4.block.block-block.clearfix {
 		margin-top: 20px;
 	}
 	.view-portfolio-detailpagina-block img {
-		margin-top: 15px;	
 	}
 	.tekstblok1 .row {
 		margin-bottom: 25px;
@@ -2113,7 +2041,6 @@ section#block-block-4.block.block-block.clearfix {
 }
 
 @media all and (max-width: 480px){
-	/*div.region.region-content {
 		margin-top: -30px;
 	}*/
 	.portfolio-block-banner:after {
@@ -2129,7 +2056,6 @@ section#block-block-4.block.block-block.clearfix {
 	.view-portfolio-related .portfolio-block-banner p {
 		font-size: 16px;
 	}
-
 	.basis-kader-intro p {
 
 	}
